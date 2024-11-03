@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import axios from 'axios'; // Ensure axios is imported for making requests
+import axios from './axios'; // Ensure axios is imported for making requests
 import Error from './Error';
 import Input from './Input';
 
