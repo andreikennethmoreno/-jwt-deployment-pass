@@ -10,7 +10,7 @@ export default function Users() {
         // Fetch user names when the component mounts
         const fetchUsers = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/api/users');
+                const response = await axios.get('https://login-backend-2y9h92a3o-andreikennethmorenos-projects.vercel.app/api/users');
                 setUsers(response.data); // Assuming the response is an array of user objects
             } catch (err) {
                 setError(err.response?.data?.message || 'Failed to fetch users');
