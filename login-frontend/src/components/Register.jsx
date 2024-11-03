@@ -38,7 +38,7 @@ export default function Register() {
 
         try {
             // Make a POST request to the signup endpoint
-            const response = await axios.post('http://localhost:5000/api/users', formData);
+            const response = await axios.post('https://login-backend-2y9h92a3o-andreikennethmorenos-projects.vercel.app/api/users', formData);
             // Handle successful signup
             console.log(response.data); // Log the response from the server
             // Optionally, redirect the user or show a success message
